@@ -1,0 +1,16 @@
+{
+  "name": "bg-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0"
+  }
+}
